@@ -6,6 +6,11 @@ public class Employee {
 	private String ename;
 	private String sal;
 	
+	
+	public Employee() {
+		System.out.println("Employee 0-param constructor");
+	}
+	
 	public int getEmpno() {
 		return empno;
 	}
